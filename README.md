@@ -11,5 +11,10 @@ This is a static website designed for GitHub Pages. `index.html` is the entry po
 
 ## Adding Research Images
 
-The Research section currently uses deliberately styled placeholders. When project figures are ready, replace each corresponding `.research-visual` block in `index.html` with an `<img>` element and store the image files in an `assets/research/` folder. Use wide images with at least a 3:2 aspect ratio for the current layout.
+The Research section currently uses deliberately styled placeholders. Add wide project figures (at least a 3:2 aspect ratio) to `assets/research/` with these exact names; each image will automatically replace its matching placeholder after the next GitHub push:
 
+- `task-driven-brain-modelling.jpg`
+- `cognitive-modelling.jpg`
+- `model-organism-simulation.jpg`
+- `invasive-bci-decoding.jpg`
+- `eeg-decoding.jpg`
