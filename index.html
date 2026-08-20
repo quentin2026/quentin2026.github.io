@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Guanting Liu - PhD student in Computational Neuroscience at The Hong Kong Polytechnic University." />
+    <title>Guanting Liu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#home">GL</a>
+      <nav aria-label="Primary navigation">
+        <a class="active" href="#home">Home</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="CV.pdf" target="_blank" rel="noopener">CV</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="page-title">
+        <div class="portrait-wrap"><img src="证件照.png" alt="Portrait of Guanting Liu" /></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Computational Neuroscience</p>
+          <h1 id="page-title">Guanting Liu</h1>
+          <p class="lead">First-year PhD student at <a href="https://www.polyu.edu.hk/" target="_blank" rel="noopener">The Hong Kong Polytechnic University</a>.</p>
+          <p>I work under the supervision of <a href="https://wangshaonan.github.io/research/" target="_blank" rel="noopener">Prof. Shaonan Wang</a> at PolyU and <a href="https://www.gdiist.cn/research/team_detail/82" target="_blank" rel="noopener">Prof. Chaoming Wang</a> at the Guangdong Institute of Intelligence Science and Technology.</p>
+          <p>My research interests lie in computational neuroscience, with a focus on biologically grounded models of neural computation and brain dynamics.</p>
+          <div class="contact-links" aria-label="Contact links">
+            <a href="mailto:liuguanting@gdiist.cn"><i data-lucide="mail"></i><span>Email</span></a>
+            <a href="https://scholar.google.com/citations?hl=en&user=VUuphxEAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener"><i data-lucide="graduation-cap"></i><span>Google Scholar</span></a>
+            <a href="CV.pdf" target="_blank" rel="noopener"><i data-lucide="file-text"></i><span>Curriculum Vitae</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section research-section" id="research" aria-labelledby="research-title">
+        <div class="section-heading"><p class="eyebrow">Selected work</p><h2 id="research-title">Research</h2></div>
+        <div class="research-list">
+          <article class="research-item">
+            <div class="research-visual connectome"><span>Connectome</span></div>
+            <div><p class="project-meta">2026 - Present</p><h3>Task-driven whole-brain modelling</h3><p>Building mesoscale structural scaffolds from MRI connectomes and coupling regional firing-rate dynamics to cognitive tasks. I study how distributed brain networks support efficient signal propagation and reliable information routing.</p></div>
+          </article>
+          <article class="research-item reverse">
+            <div><p class="project-meta">2025 - Present</p><h3>Multi-level cognitive computational modelling</h3><p>Developing biologically constrained models, including leaky integrate-and-fire and Hodgkin-Huxley systems, to investigate working memory and decision-making. Neural-manifold analysis connects computational principles across levels of description.</p></div>
+            <div class="research-visual dynamics"><span>Neural dynamics</span></div>
+          </article>
+          <article class="research-item">
+            <div class="research-visual wholebrain"><span>Whole-brain simulation</span></div>
+            <div><p class="project-meta">2025 - 2026</p><h3>Whole-brain simulation in model organisms</h3><p>Constructed a Drosophila whole-brain model using a 140,000-neuron connectome to predict resting-state activity. I also modelled zebrafish neural activity from cellular-resolution calcium imaging and analysed sensory-motor function.</p></div>
+          </article>
+          <article class="research-item reverse">
+            <div><p class="project-meta">2021 - 2025</p><h3>Neural decoding for brain-machine interfaces</h3><p>Designed and analysed decoding algorithms for invasive motor BCI and non-invasive EEG. This work includes interpretable Kalman-filter approaches, spiking neural networks, and graph-based deep learning for motor imagery and epilepsy detection.</p></div>
+            <div class="research-visual decoding"><span>Neural decoding</span></div>
+          </article>
+        </div>
+        <p class="image-note">Research illustrations will be added here as the projects progress.</p>
+      </section>
+
+      <section class="section publications-section" id="publications" aria-labelledby="publications-title">
+        <div class="section-heading"><p class="eyebrow">Selected papers</p><h2 id="publications-title">Publications</h2></div>
+        <p class="publication-note">Full publication list available on <a href="https://scholar.google.com/citations?hl=en&user=VUuphxEAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener">Google Scholar</a>. <sup>1</sup> Co-first author. <sup>*</sup> Corresponding author.</p>
+        <ol class="publication-list">
+          <li><p class="pub-authors"><strong>Guanting Liu</strong><sup>1</sup>, Ying Yan<sup>1</sup>, Jun Cai, Edmond Qi Wu, Shencun Fang<sup>*</sup>, Adrian David Cheok, and Aiguo Song.</p><p class="pub-title">GCD: Graph contrastive denoising module for GNNs in EEG classification.</p><p class="venue"><em>Expert Systems with Applications</em>, 265, 126013, 2025. <a href="https://doi.org/10.1016/j.eswa.2024.126013" target="_blank" rel="noopener">DOI</a></p></li>
+          <li><p class="pub-authors"><strong>Guanting Liu</strong><sup>*</sup>, Ying Yan, Jun Cai, Adrian David Cheok, Edmond Qi Wu, and Aiguo Song.</p><p class="pub-title">Rethinking Kalman Filters for Motor Brain-Machine Interface: The Fundamental Limitations and A Perspective Shift.</p><p class="venue"><em>bioRxiv</em>, 2025. <a href="https://doi.org/10.1101/2025.07.10.664247" target="_blank" rel="noopener">DOI</a></p></li>
+          <li><p class="pub-authors"><strong>Guanting Liu</strong><sup>*</sup>, Ying Yan, Jun Cai, Adrian David Cheok, Edmond Qi Wu, and Aiguo Song.</p><p class="pub-title">A More Rational and Efficient Kalman Filter Design for Motor Brain-Machine Interfaces.</p><p class="venue"><em>IEEE EMBC</em>, 2025. <a href="https://doi.org/10.1109/EMBC58623.2025.11251710" target="_blank" rel="noopener">DOI</a></p></li>
+          <li><p class="pub-authors"><strong>Guanting Liu</strong><sup>*</sup>, Ying Yan, Sizhen He, Jun Cai, Adrian David Cheok, Edmond Qi Wu, and Aiguo Song.</p><p class="pub-title">A Neuromorphic Approach for Brain-Machine Interface Using Spiking Neural Networks.</p><p class="venue"><em>IEEE EMBC</em>, 2025. <a href="https://doi.org/10.1109/EMBC58623.2025.11254255" target="_blank" rel="noopener">DOI</a></p></li>
+        </ol>
+      </section>
+
+      <section class="cv-band" aria-labelledby="cv-title"><div><p class="eyebrow">Detailed record</p><h2 id="cv-title">Curriculum Vitae</h2></div><a class="cv-link" href="CV.pdf" target="_blank" rel="noopener">View CV <i data-lucide="arrow-up-right"></i></a></section>
+    </main>
+    <footer><span>© 2026 Guanting Liu</span><a href="#home">Back to top <i data-lucide="arrow-up"></i></a></footer>
+    <script>window.addEventListener('DOMContentLoaded', () => lucide.createIcons());</script>
+  </body>
+</html>
