@@ -16,3 +16,5 @@ h1 span { color:var(--muted); font-size:30px; white-space:nowrap; }
 .other-list { counter-reset:pub 4; }
 
 @media (max-width:700px) { .updated { font-size:9px; } h1 span { font-size:22px; } .research-visual { min-height:190px; height:190px; } }
+
+.publications-section .publication-note { margin:38px 0 0; }
